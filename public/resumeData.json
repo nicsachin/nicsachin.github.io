@@ -14,19 +14,9 @@
       "state":"New Delhi",
       "zip": "India"
     },
-    "website": "https://sambhav2612.github.io/resume",
+    "website": "",
     "resumedownload":"antaracareline.png",
     "social":[
-      {
-        "name":"twitter",
-        "url":"http://twitter.com/sambhavvjain",
-        "className":"fa fa-twitter"
-      },
-      {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/sambhav2612/",
-        "className":"fa fa-linkedin"
-      },
       {
         "name":"github",
         "url":"https://github.com/nicsachin",
