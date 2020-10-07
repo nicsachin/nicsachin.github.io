@@ -1,21 +1,21 @@
 {
   "main": {
-    "name":"Sambhav Jain",
-    "description":"I am a software engineer based on New Delhi, India and I work on fullstack technologies like react, node and aws to develop websites.",
-    "image":"profile-pic.jpg",
-    "bio":"I am a Software Engineer based in New Delhi, India and I work on fullstack technologies like React, Node and AWS to develop websites. I also read non-fictions and love to go on the long and unscheduled runs.",
+    "name":"Sachin Sharma",
+    "description":"I am a software engineer based on New Delhi.",
+    "image":"profile.jpeg",
+    "bio":"I am a Software Engineer based in New Delhi.",
     "contactmessage":"Good to see you here, please send anything that needs my physical attention to below address and I'll surely look into it!",
-    "email": "sambhavjain2612@gmail.com",
-    "phone": "(+91) 844-814-4086 / 858-806-2059",
-    "github":"https://github.com/sambhav2612",
+    "email": "nicsachin007@gmail.com",
+    "phone": "",
+    "github":"https://github.com/nicsachin",
     "address":{
-      "street":"A-303, 3rd Floor, Ahinsha Vatika",
-      "city":"Shahdara,",
-      "state":"Delhi - 110032",
+      "street":"Dwarka",
+      "city":"",
+      "state":"New Delhi",
       "zip": "India"
     },
     "website": "https://sambhav2612.github.io/resume",
-    "resumedownload":"https://mega.nz/file/4qJCTQpA#m6E6Wlow-NRaiFCsr3a_SRH0PWhZHTUjgaRVAec7MSw",
+    "resumedownload":"antaracareline.png",
     "social":[
       {
         "name":"twitter",
@@ -29,7 +29,7 @@
       },
       {
         "name":"github",
-        "url":"https://github.com/sambhav2612",
+        "url":"https://github.com/nicsachin",
         "className":"fa fa-github"
       }
     ]
@@ -37,40 +37,10 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Welexo - International Trade Repository",
-        "category":"Xencov Software",
-        "image":"welexo.png",
+        "title":"Antaracareline",
+        "category":"Codalien technologies",
+        "image":"antaracareline.png",
         "url":"https://www.welexo.com"
-      },
-      {
-        "title":"Future Tayari - E-learning Website",
-        "category":"Xencov Software",
-        "image":"future-tayari.png",
-        "url":"https://www.beta.futuretayari.com"
-      },
-      {
-        "title":"Janus Aviation - Asset Management Tool",
-        "category":"Xencov Software",
-        "image":"janus.png",
-        "url":"https://www.theassetpro.com"
-      },
-      {
-        "title":"Perspectico - AI-based candidate assessment and sourcing tool",
-        "category":"Xencov Software",
-        "image":"perspectico.png",
-        "url":"https://www.perspectico.com"
-      },
-      {
-        "title":"OTR Mobile - E-commerce for Telecom Devices and Subscriptions for US",
-        "category":"Xencov Software",
-        "image":"otr.png",
-        "url":"https://www.otrmobile.com"
-      },
-      {
-        "title":"Table-based todo with sorting and pagination built with React, Redux and Ant Design",
-        "category":"Self",
-        "image":"todo.png",
-        "url":"http://www.sambhav2612.github.io/todo"
       }
     ]
   }
