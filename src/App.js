@@ -15,7 +15,7 @@ function App() {
             <Header data={data.main}/>
             <About data={data.main}/>
             <Portfolio data={data.portfolio}/>
-            <Contact data={data.main}/>
+            {/*<Contact data={data.main}/>*/}
             <Footer data={data.main}/>
         </div>
     );
