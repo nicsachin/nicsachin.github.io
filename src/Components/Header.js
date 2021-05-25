@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import ParticlesBg from "particles-bg";
-import Service from "../Service";
-
+import Service from "../Service";import Typewriter from 'typewriter-effect';
 class Header extends Component {
 
 
@@ -12,7 +11,7 @@ class Header extends Component {
 
     async componentDidMount() {
         let quote = await Service.getQOD();
-        this.setState({quote:{title: quote.title, body: quote.body}})
+        this.setState({...this.state,quote:{title: quote.title, body: quote.body}})
 
     }
 
@@ -40,7 +39,14 @@ class Header extends Component {
 
                 <div className="row banner">
                     <div className="banner-text">
-                        <h1 className="responsive-headline">{name}</h1>
+
+                        <Typewriter
+                            onInit={(typewriter) => {
+                                typewriter
+                                    .typeString('<h1 className="responsive-headline">Hi, I am Sachin Sharma </h1>')
+                                    .start();
+                            }}
+                        />
                         <h3>{description}.</h3>
 
                         <hr/>
