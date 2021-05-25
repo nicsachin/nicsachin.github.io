@@ -31,6 +31,12 @@ let data ={
     "portfolio":{
         "projects": [
             {
+                "title":"Slingshot game",
+                "category":"2d game with physics engine",
+                "image":"sling.png",
+                "url":"https://nicsachin.github.io/slingShotGame/"
+            },
+            {
                 "title":"Antaracareline",
                 "category":"CRM",
                 "image":"antaracareline.png",
@@ -39,7 +45,7 @@ let data ={
                 "title":"Toyfull",
                 "category":"E-commerce application",
                 "image":"toyfull.png",
-                "url":"https://toyfull-app.web.app/"
+                "url":"https://toyfull.com/"
             }, {
                 "title":"Evermee",
                 "category":"Hybrid Application",
@@ -50,16 +56,11 @@ let data ={
                 "category":"Hybrid Application",
                 "image":"trackier.png",
                 "url":"https://trackier.com/"
-            }, {
+            },  {
                 "title":"Beats",
                 "category":"Web animation with sound",
                 "image":"beats.png",
                 "url":"https://nicsachin.github.io/beats/"
-            }, {
-                "title":"Slingshot game",
-                "category":"2d game with physics engine",
-                "image":"sling.png",
-                "url":"https://nicsachin.github.io/slingShotGame/"
             }
         ]
     }

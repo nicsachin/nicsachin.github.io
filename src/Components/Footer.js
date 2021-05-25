@@ -21,7 +21,7 @@ class Footer extends Component {
               </ul>
 
               <ul className="copyright">
-                <li>&copy; Copyright 2020 Sachin sharma</li>
+                {/*<li>&copy; Copyright 2020 Sachin sharma</li>*/}
               </ul>
 
             </div>
