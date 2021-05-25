@@ -1,55 +1,25 @@
-import React, {Component} from 'react';
-import ReactGA from 'react-ga';
-import $ from 'jquery';
+import React from 'react';
+
 import './App.css';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import About from './Components/About';
 import Contact from './Components/Contact';
 import Portfolio from './Components/Portfolio';
+import data from "./data";
 
-class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      foo: 'bar',
-      resumeData: {}
-    };
 
-    ReactGA.initialize('UA-107733371-5');
-    ReactGA.pageview(window.location.pathname + window.location.search);
-  }
-
-  getResumeData() {
-    $.ajax({
-      url: './resumeData.json',
-      dataType: 'json',
-      cache: false,
-      success: function (data) {
-        this.setState({resumeData: data});
-      }.bind(this),
-      error: function (xhr, status, err) {
-        console.log(err);
-        alert(err);
-      }
-    });
-  }
-
-  componentDidMount() {
-    this.getResumeData();
-  }
-
-  render() {
+function App() {
     return (
         <div className="App">
-          <Header data={this.state.resumeData.main}/>
-          <About data={this.state.resumeData.main}/>
-          <Portfolio data={this.state.resumeData.portfolio}/>
-          <Contact data={this.state.resumeData.main}/>
-          <Footer data={this.state.resumeData.main}/>
+            <Header data={data.main}/>
+            <About data={data.main}/>
+            <Portfolio data={data.portfolio}/>
+            <Contact data={data.main}/>
+            <Footer data={data.main}/>
         </div>
     );
-  }
 }
+
 
 export default App;
