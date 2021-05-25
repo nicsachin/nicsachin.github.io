@@ -12,8 +12,6 @@ class Header extends Component {
 
     async componentDidMount() {
         let quote = await Service.getQOD();
-
-        console.log('Quote , ' , quote);
         this.setState({quote:{title: quote.title, body: quote.body}})
 
     }

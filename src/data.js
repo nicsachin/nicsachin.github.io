@@ -1,9 +1,9 @@
 let data ={
     "main": {
         "name":"Sachin Sharma",
-        "description":"I am a software engineer, I like solving real world problems with tech.",
+        "description":"I am a full stack engineer based on delhi.",
         "image":"profile.jpeg",
-        "bio":"I am a Software Engineer based in New Delhi.",
+        "bio":"I am a full stack engineer based on delhi",
         "contactmessage":"You can contact me on below details .....",
         "email": "nicsachin007@gmail.com",
         "phone": "",
